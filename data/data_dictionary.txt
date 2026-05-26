@@ -1,0 +1,117 @@
+============================================================
+DATA DICTIONARY
+Edu-Assist: Course Recommendation System - Coursera Dataset
+============================================================
+
+1. title
+Tipe Data : string
+Deskripsi :
+Berisi judul course pada platform Coursera.
+
+2. Description
+Tipe Data : string
+Deskripsi :
+Berisi penjelasan atau ringkasan materi pembelajaran
+yang terdapat pada course.
+
+3. Skills
+Tipe Data : string
+Deskripsi :
+Berisi daftar skill atau kompetensi yang dipelajari
+dalam suatu course.
+
+4. Level
+Tipe Data : string
+Deskripsi :
+Menunjukkan tingkat kesulitan course.
+Kategori:
+- Beginner level
+- Intermediate level
+- Advanced level
+
+5. rating
+Tipe Data : float
+Deskripsi :
+Nilai rating course yang diberikan pengguna
+dengan skala 0–5.
+
+6. URL
+Tipe Data : string
+Deskripsi :
+Link menuju halaman resmi course di Coursera.
+
+7. description_length
+Tipe Data : integer
+Deskripsi :
+Jumlah karakter pada deskripsi course.
+Digunakan untuk analisis karakteristik teks.
+
+8. title_length
+Tipe Data : integer
+Deskripsi :
+Jumlah karakter pada judul course.
+
+9. skills_count
+Tipe Data : integer
+Deskripsi :
+Jumlah skill yang dimiliki setiap course.
+
+10. combined_features
+Tipe Data : string
+Deskripsi :
+Gabungan beberapa fitur teks:
+- title
+- Description
+- Skills
+- Level
+
+Kolom ini digunakan untuk proses
+TF-IDF Embedding pada recommendation system.
+
+11. rating_group
+Tipe Data : object
+Deskripsi :
+Kelompok kategori rating course:
+- Excellent
+- Good
+- Average
+
+Digunakan untuk filtering dashboard.
+
+12. complexity_group
+Tipe Data : object
+Deskripsi :
+Kategori tingkat kompleksitas course berdasarkan
+jumlah skill dan panjang deskripsi:
+- Low Complexity
+- Medium Complexity
+- High Complexity
+
+Digunakan untuk analisis lanjutan dan filtering.
+==================================================
+DATA READINESS
+==================================================
+
+Dataset telah melalui proses preprocessing dan
+siap digunakan untuk recommendation system.
+
+Tahapan preprocessing meliputi:
+1. Data Cleaning
+   - Menghapus missing value
+   - Menghapus data duplikat
+   - Menyesuaikan tipe data
+
+2. Feature Engineering
+   - description_length
+   - title_length
+   - skills_count
+   - combined_features
+
+3. Text Embedding
+   - TF-IDF Vectorization
+
+4. Similarity Calculation
+   - Cosine Similarity
+
+Dataset final siap digunakan untuk
+pengembangan recommendation system.
