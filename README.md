@@ -1,3 +1,43 @@
+<div align="center">
+
+# 🎓 Edu-Assist
+
+### Adaptive Academic Chatbot for Personalized Learning
+### with RAG, Layered Context, and Course Recommendation System
+
+![Status](https://img.shields.io/badge/Status-Active-green)
+![RAG](https://img.shields.io/badge/RAG-Powered-blue)
+![Course Recommendation](https://img.shields.io/badge/Course-Recommendation-purple)
+![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
+
+</div>
+
+---
+
+# 📌 Project Overview
+
+Edu-Assist merupakan platform pembelajaran berbasis Artificial Intelligence yang dirancang untuk memberikan pengalaman belajar yang lebih personal, adaptif, dan akurat.
+
+Sistem mengintegrasikan teknologi Retrieval-Augmented Generation (RAG), Layered Context Retrieval, Student Persona Modeling, dan Course Recommendation System untuk membantu siswa memperoleh informasi pembelajaran yang relevan sesuai kebutuhan mereka.
+
+---
+
+# 🎯 Background
+
+Pemanfaatan AI dalam pendidikan terus berkembang, namun sebagian besar chatbot pembelajaran masih memberikan respons yang bersifat umum dan kurang personal.
+
+Setiap siswa memiliki:
+
+- Tingkat pendidikan yang berbeda
+- Minat belajar yang berbeda
+- Preferensi komunikasi yang berbeda
+
+Selain itu, model AI konvensional masih berpotensi menghasilkan informasi yang tidak relevan (hallucination).
+
+Oleh karena itu, Edu-Assist dikembangkan untuk menghadirkan sistem pembelajaran yang lebih adaptif, personal, dan berbasis sumber informasi yang terpercaya.
+
+---
+
 # 📂 Struktur Project & Penjelasan Berkas
 
 Berikut struktur project beserta fungsi masing-masing folder dan file:
@@ -22,6 +62,8 @@ CAPSTONE/
 │── url.txt
 │── README.md
 ```
+
+---
 
 ## 📁 Folder `data/`
 
